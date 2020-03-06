@@ -161,12 +161,6 @@ void initDisplay()
   tft.setCursor(0, 0);
   tft.setTextDatum(MC_DATUM);
 
-  //! The backlight has been initialized in the TFT_eSPI library
-  // if (TFT_BL > 0) {
-  //     pinMode(TFT_BL, OUTPUT);
-  //     digitalWrite(TFT_BL, HIGH);
-  // }
-
   drawLogo();
   delay(1500);
 }
@@ -217,20 +211,4 @@ void loop() {
   server.handleClient();
 
   animate(animDelay);
-
-  // for (int y = 0; y > -240; y--)
-  // {
-  //   drawTree(y);
-  //   delay(10);
-  // }
-
-
-  // for (int i = 1; i < 100; i++)
-  // {
-  //   animate(100);
-  // }
-  // for (int i = 1; i < 1000; i++)
-  // {
-  //   animate(1);
-  // }
 }
