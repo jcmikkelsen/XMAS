@@ -1,8 +1,8 @@
 # XMAS
-Christmas 2019 demo for the LilyGO TTGO T-display ESP32 micro-controller. Displays a flashing Christmas tree and a static greeting text.
-Provides a WiFi hotspot for customizing the animation and the text.
+Christmas 2019 demo for ESP32 microcontroller on the LilyGO TTGO T-display board. Displays a flashing Christmas tree and a static greeting text.
+Also provides a WiFi hotspot for customizing the animation and the text.
 
-Read more about the T-Display here:
+Read more about the T-Display board here:
 
 http://www.lilygo.cn/claprod_view.aspx?TypeId=21&Id=1128
 
